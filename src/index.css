@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.light-mode {
+  background: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background: #333;
+  color: #ffffff;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 5px;
+}
+
+/* Task List */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+body {
+  background-color: transparent;
+}
+/* Make sure HTML and body take full height */
+/* Ensure HTML and body take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Ensure the app container takes the full height of the viewport */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the input container to align input and button horizontally */
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;  /* Add some spacing below */
+}
+
+/* Style the input box */
+.task-input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;  /* Space between input and button */
+  font-size: 16px;
+  width: 250px;  /* Adjust width as needed */
+}
+
+/* Style the Add button */
+.add-btn {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #45a049;  /* Darker green on hover */
+}
+
+/* Button and other styles */
+button {
+  margin: 5px;
+}
+
+/* Style the task items */
+.completed {
+  text-decoration: line-through;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
