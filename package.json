@@ -4,7 +4,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/ivyrose54/frontend-todoapp",
+  "homepage": "https://github.com/ivyrose54/todo-frontend",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
